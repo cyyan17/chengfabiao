@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-<<<<<<< HEAD
-=======
-
->>>>>>> cb996c206b06ce37be7e1fd1af1320c6573c9039
 from common.mymako import render_mako_context,render_json
 from home_application.models import Data
 
@@ -17,10 +13,7 @@ def compute(request):
         )
     return render_json({'result':result})
 
-<<<<<<< HEAD
-=======
 
->>>>>>> cb996c206b06ce37be7e1fd1af1320c6573c9039
 def home(request):
     """
     首页
